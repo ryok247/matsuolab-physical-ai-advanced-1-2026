@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "control_dt_s": 0.02,
+  "physics_substeps": 2,
+  "force": "alpha * robot_mass_kg * 9.81",
+  "reference": "link_COM",
+  "world_vector_fixed_at_onset": true,
+  "pulse_steps": 10,
+  "levels": [0.1, 0.2, 0.3],
+  "dev_seeds": [90, 91, 92, 93, 94],
+  "formal_seeds": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009],
+  "formal_start_step": 200,
+  "evaluation_steps": 600,
+  "precondition_steps": 25,
+  "recovery_dwell_steps": 25,
+  "recovery_deadline_s": 2.0,
+  "velocity_tolerance": [0.1, 0.1, 0.15],
+  "unforced_episode_probability": 0.5,
+  "weak_range": [0.05, 0.15],
+  "mixed_range": [0.05, 0.3]
+}

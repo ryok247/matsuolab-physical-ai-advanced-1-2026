@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "training_maps": [[11, 0.02], [12, 0.02], [13, 0.04]],
+  "iterations_per_map": 301,
+  "num_envs": 256,
+  "candidates": [
+    {"name": "low_lr", "learning_rate": 0.0001, "posture_scale": 0.0},
+    {"name": "low_lr_posture", "learning_rate": 0.0001, "posture_scale": -0.5}
+  ],
+  "dev_seeds": [100, 101, 102],
+  "formal_seeds": [400, 401, 402, 403, 404],
+  "amplitudes": [0.01, 0.02, 0.04],
+  "selection": "flat >=27/30; dev successes descending, strong descending, candidate order ties; fallback old",
+  "time_cap_seconds": 7200
+}

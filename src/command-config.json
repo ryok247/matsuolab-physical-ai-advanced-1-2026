@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "dt": 0.02,
+  "hold_s": 4.0,
+  "evaluation_joint_jitter_rad": 0.01,
+  "stages": {
+    "speed": {"weights": [0.2, 0.8, 0.0, 0.0], "vx_max": 0.6, "arc_vx_max": 0.6, "yaw_max": 0.0},
+    "full": {"weights": [0.2, 0.3, 0.2, 0.3], "vx_max": 0.8, "arc_vx_max": 0.6, "yaw_max": 0.6}
+  },
+  "thresholds": {
+    "vx_mae": 0.10, "vy_mae": 0.10, "yaw_mae": 0.15,
+    "turn_xy_speed": 0.10, "stop_xy_speed": 0.05, "stop_yaw_speed": 0.10,
+    "settle_s": 2.0, "dwell_s": 0.5, "exclude_s": 1.0,
+    "formal_success_rate": 0.9
+  },
+  "formal_seeds": [1000, 1001, 1002, 1003, 1004],
+  "formal_yaw_degrees": [-15, 0, 15],
+  "mirrors": [1, -1]
+}

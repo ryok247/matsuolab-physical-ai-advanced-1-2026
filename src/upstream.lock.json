@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/Genesis-Embodied-AI/Genesis",
+  "commit": "1ac23c39b32e567cc76e20a467fee99aaad257b7",
+  "engine_version": "1.4.5",
+  "files": {
+    "go2_env.py": "22a08b9f1f5c765732a7b3d04c98b3cb6a25b565aa024479a0526bbc654c1a63",
+    "go2_train.py": "9d78b33a90e8833be648c302a818f1b10ebfb632d0f5de5214f68bf1d714cb00"
+  }
+}
